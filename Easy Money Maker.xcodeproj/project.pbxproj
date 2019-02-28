@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75255C1122186065008545F3 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75255C1022186065008545F3 /* loginVC.swift */; };
+		75255C13221861CF008545F3 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75255C12221861CF008545F3 /* Register.swift */; };
+		75255C1522188761008545F3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75255C1422188761008545F3 /* WebViewController.swift */; };
+		7576528A221D921F00B1AB25 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7576526B221D921F00B1AB25 /* GameScene.sks */; };
+		7576528B221D921F00B1AB25 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576526C221D921F00B1AB25 /* GameViewController.swift */; };
+		7576528C221D921F00B1AB25 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7576526E221D921F00B1AB25 /* Game.xcassets */; };
+		7576528D221D921F00B1AB25 /* SparkleBlast.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75765270221D921F00B1AB25 /* SparkleBlast.sks */; };
+		7576528E221D921F00B1AB25 /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 75765271221D921F00B1AB25 /* sparkle.png */; };
+		7576528F221D921F00B1AB25 /* victory.aac in Resources */ = {isa = PBXBuildFile; fileRef = 75765273221D921F00B1AB25 /* victory.aac */; };
+		75765290221D921F00B1AB25 /* woosh.aac in Resources */ = {isa = PBXBuildFile; fileRef = 75765274221D921F00B1AB25 /* woosh.aac */; };
+		75765291221D921F00B1AB25 /* bubble_pop.aac in Resources */ = {isa = PBXBuildFile; fileRef = 75765275221D921F00B1AB25 /* bubble_pop.aac */; };
+		75765292221D921F00B1AB25 /* error.aac in Resources */ = {isa = PBXBuildFile; fileRef = 75765276221D921F00B1AB25 /* error.aac */; };
+		75765293221D921F00B1AB25 /* gomarice_okuba_cloud.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75765278221D921F00B1AB25 /* gomarice_okuba_cloud.ttf */; };
+		75765294221D921F00B1AB25 /* Context Rounded Black SSi Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75765279221D921F00B1AB25 /* Context Rounded Black SSi Black.ttf */; };
+		75765295221D921F00B1AB25 /* SpinWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576527C221D921F00B1AB25 /* SpinWheel.swift */; };
+		75765296221D921F00B1AB25 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576527E221D921F00B1AB25 /* PushButton.swift */; };
+		75765297221D921F00B1AB25 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576527F221D921F00B1AB25 /* Settings.swift */; };
+		75765298221D921F00B1AB25 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75765280221D921F00B1AB25 /* CGFloat+Extensions.swift */; };
+		75765299221D921F00B1AB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75765282221D921F00B1AB25 /* Assets.xcassets */; };
+		7576529A221D921F00B1AB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75765283221D921F00B1AB25 /* LaunchScreen.storyboard */; };
+		7576529B221D921F00B1AB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75765285221D921F00B1AB25 /* Main.storyboard */; };
+		7576529C221D921F00B1AB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75765287221D921F00B1AB25 /* AppDelegate.swift */; };
+		7576529D221D921F00B1AB25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75765288221D921F00B1AB25 /* Info.plist */; };
+		7576529E221D921F00B1AB25 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75765289221D921F00B1AB25 /* GameScene.swift */; };
+		75AE94E42218CA3000243D3D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AE94E32218CA3000243D3D /* Menu.swift */; };
+		75AE94E62218D73500243D3D /* LeftMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AE94E52218D73500243D3D /* LeftMenuCell.swift */; };
+		75CC4A4122184CC4000267DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A4022184CC4000267DE /* AppDelegate.swift */; };
+		75CC4A4322184CC4000267DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A4222184CC4000267DE /* ViewController.swift */; };
+		75CC4A4622184CC4000267DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CC4A4422184CC4000267DE /* Main.storyboard */; };
+		75CC4A4822184CC6000267DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CC4A4722184CC6000267DE /* Assets.xcassets */; };
+		75CC4A4B22184CC6000267DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CC4A4922184CC6000267DE /* LaunchScreen.storyboard */; };
+		75CC4A5322184E6C000267DE /* webpanelcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A5222184E6C000267DE /* webpanelcell.swift */; };
+		75CC4A5522184F88000267DE /* admobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A5422184F88000267DE /* admobTableViewCell.swift */; };
+		75CC4A5722184FDD000267DE /* startappTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A5622184FDD000267DE /* startappTableViewCell.swift */; };
+		75CC4A592218501A000267DE /* redeemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A582218501A000267DE /* redeemTableViewCell.swift */; };
+		75CC4A5B22185069000267DE /* aboutusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A5A22185069000267DE /* aboutusTableViewCell.swift */; };
+		75CC4A5F221853C2000267DE /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A5E221853C2000267DE /* AboutUs.swift */; };
+		75CC4A61221853CF000267DE /* Redeem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A60221853CF000267DE /* Redeem.swift */; };
+		75CC4A6322185690000267DE /* WebPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A6222185690000267DE /* WebPanelController.swift */; };
+		75CC4A6522185781000267DE /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC4A6422185781000267DE /* VideoCell.swift */; };
+		75CC4A6722185A1D000267DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CC4A6622185A1D000267DE /* GoogleService-Info.plist */; };
+		B25D9F485044FF3490CD7F32 /* Pods_Easy_Money_Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F62756A640AB0195E59B48E /* Pods_Easy_Money_Maker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DBC5E2849E420DFF425EB0E /* Pods-Easy Money Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Money Maker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy Money Maker/Pods-Easy Money Maker.release.xcconfig"; sourceTree = "<group>"; };
+		4F62756A640AB0195E59B48E /* Pods_Easy_Money_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_Money_Maker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75255C1022186065008545F3 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		75255C12221861CF008545F3 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		75255C1422188761008545F3 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7576526B221D921F00B1AB25 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7576526C221D921F00B1AB25 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7576526E221D921F00B1AB25 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		75765270221D921F00B1AB25 /* SparkleBlast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkleBlast.sks; sourceTree = "<group>"; };
+		75765271221D921F00B1AB25 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		75765273221D921F00B1AB25 /* victory.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = victory.aac; sourceTree = "<group>"; };
+		75765274221D921F00B1AB25 /* woosh.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = woosh.aac; sourceTree = "<group>"; };
+		75765275221D921F00B1AB25 /* bubble_pop.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_pop.aac; sourceTree = "<group>"; };
+		75765276221D921F00B1AB25 /* error.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = error.aac; sourceTree = "<group>"; };
+		75765278221D921F00B1AB25 /* gomarice_okuba_cloud.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gomarice_okuba_cloud.ttf; sourceTree = "<group>"; };
+		75765279221D921F00B1AB25 /* Context Rounded Black SSi Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Context Rounded Black SSi Black.ttf"; sourceTree = "<group>"; };
+		7576527C221D921F00B1AB25 /* SpinWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheel.swift; sourceTree = "<group>"; };
+		7576527E221D921F00B1AB25 /* PushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		7576527F221D921F00B1AB25 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		75765280221D921F00B1AB25 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		75765282221D921F00B1AB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75765284221D921F00B1AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75765286221D921F00B1AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75765287221D921F00B1AB25 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75765288221D921F00B1AB25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75765289221D921F00B1AB25 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		75AE94E32218CA3000243D3D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		75AE94E52218D73500243D3D /* LeftMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuCell.swift; sourceTree = "<group>"; };
+		75CC4A3D22184CC4000267DE /* Easy Money Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Money Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CC4A4022184CC4000267DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75CC4A4222184CC4000267DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75CC4A4522184CC4000267DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75CC4A4722184CC6000267DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75CC4A4A22184CC6000267DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75CC4A4C22184CC6000267DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CC4A5222184E6C000267DE /* webpanelcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webpanelcell.swift; sourceTree = "<group>"; };
+		75CC4A5422184F88000267DE /* admobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admobTableViewCell.swift; sourceTree = "<group>"; };
+		75CC4A5622184FDD000267DE /* startappTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startappTableViewCell.swift; sourceTree = "<group>"; };
+		75CC4A582218501A000267DE /* redeemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redeemTableViewCell.swift; sourceTree = "<group>"; };
+		75CC4A5A22185069000267DE /* aboutusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutusTableViewCell.swift; sourceTree = "<group>"; };
+		75CC4A5E221853C2000267DE /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		75CC4A60221853CF000267DE /* Redeem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redeem.swift; sourceTree = "<group>"; };
+		75CC4A6222185690000267DE /* WebPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPanelController.swift; sourceTree = "<group>"; };
+		75CC4A6422185781000267DE /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		75CC4A6622185A1D000267DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB50F885966FCD4F5564F2AE /* Pods-Easy Money Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Money Maker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy Money Maker/Pods-Easy Money Maker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75CC4A3A22184CC4000267DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D9F485044FF3490CD7F32 /* Pods_Easy_Money_Maker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8C6D900E6BB598D9F3C1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F885966FCD4F5564F2AE /* Pods-Easy Money Maker.debug.xcconfig */,
+				0DBC5E2849E420DFF425EB0E /* Pods-Easy Money Maker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75765269221D921F00B1AB25 /* SpinWheel */ = {
+			isa = PBXGroup;
+			children = (
+				7576526A221D921F00B1AB25 /* Scenes */,
+				7576526C221D921F00B1AB25 /* GameViewController.swift */,
+				7576526D221D921F00B1AB25 /* Resources */,
+				7576527A221D921F00B1AB25 /* Objects */,
+				7576527D221D921F00B1AB25 /* Utils */,
+				75765281221D921F00B1AB25 /* Supporting Files */,
+				75765289221D921F00B1AB25 /* GameScene.swift */,
+			);
+			path = SpinWheel;
+			sourceTree = "<group>";
+		};
+		7576526A221D921F00B1AB25 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7576526B221D921F00B1AB25 /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7576526D221D921F00B1AB25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7576526E221D921F00B1AB25 /* Game.xcassets */,
+				7576526F221D921F00B1AB25 /* Particles */,
+				75765272221D921F00B1AB25 /* Sounds */,
+				75765277221D921F00B1AB25 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7576526F221D921F00B1AB25 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				75765270221D921F00B1AB25 /* SparkleBlast.sks */,
+				75765271221D921F00B1AB25 /* sparkle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		75765272221D921F00B1AB25 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				75765273221D921F00B1AB25 /* victory.aac */,
+				75765274221D921F00B1AB25 /* woosh.aac */,
+				75765275221D921F00B1AB25 /* bubble_pop.aac */,
+				75765276221D921F00B1AB25 /* error.aac */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		75765277221D921F00B1AB25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				75765278221D921F00B1AB25 /* gomarice_okuba_cloud.ttf */,
+				75765279221D921F00B1AB25 /* Context Rounded Black SSi Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7576527A221D921F00B1AB25 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7576527B221D921F00B1AB25 /* Scenes */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		7576527B221D921F00B1AB25 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7576527C221D921F00B1AB25 /* SpinWheel.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7576527D221D921F00B1AB25 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7576527E221D921F00B1AB25 /* PushButton.swift */,
+				7576527F221D921F00B1AB25 /* Settings.swift */,
+				75765280221D921F00B1AB25 /* CGFloat+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75765281221D921F00B1AB25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75765282221D921F00B1AB25 /* Assets.xcassets */,
+				75765283221D921F00B1AB25 /* LaunchScreen.storyboard */,
+				75765285221D921F00B1AB25 /* Main.storyboard */,
+				75765287221D921F00B1AB25 /* AppDelegate.swift */,
+				75765288221D921F00B1AB25 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75CC4A3422184CC4000267DE = {
+			isa = PBXGroup;
+			children = (
+				75765269221D921F00B1AB25 /* SpinWheel */,
+				75CC4A3F22184CC4000267DE /* Easy Money Maker */,
+				75CC4A3E22184CC4000267DE /* Products */,
+				0B8C6D900E6BB598D9F3C1A4 /* Pods */,
+				92A29C2DB6A7B586088EE939 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75CC4A3E22184CC4000267DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75CC4A3D22184CC4000267DE /* Easy Money Maker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75CC4A3F22184CC4000267DE /* Easy Money Maker */ = {
+			isa = PBXGroup;
+			children = (
+				75CC4A5D221853A0000267DE /* ViewControllers */,
+				75CC4A5C221850BB000267DE /* Cell */,
+				75CC4A4022184CC4000267DE /* AppDelegate.swift */,
+				75CC4A4422184CC4000267DE /* Main.storyboard */,
+				75CC4A4722184CC6000267DE /* Assets.xcassets */,
+				75CC4A6622185A1D000267DE /* GoogleService-Info.plist */,
+				75CC4A4922184CC6000267DE /* LaunchScreen.storyboard */,
+				75CC4A4C22184CC6000267DE /* Info.plist */,
+			);
+			path = "Easy Money Maker";
+			sourceTree = "<group>";
+		};
+		75CC4A5C221850BB000267DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				75CC4A5222184E6C000267DE /* webpanelcell.swift */,
+				75AE94E52218D73500243D3D /* LeftMenuCell.swift */,
+				75CC4A6422185781000267DE /* VideoCell.swift */,
+				75CC4A5422184F88000267DE /* admobTableViewCell.swift */,
+				75CC4A5622184FDD000267DE /* startappTableViewCell.swift */,
+				75CC4A582218501A000267DE /* redeemTableViewCell.swift */,
+				75CC4A5A22185069000267DE /* aboutusTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		75CC4A5D221853A0000267DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75CC4A4222184CC4000267DE /* ViewController.swift */,
+				75CC4A6222185690000267DE /* WebPanelController.swift */,
+				75255C12221861CF008545F3 /* Register.swift */,
+				75CC4A5E221853C2000267DE /* AboutUs.swift */,
+				75255C1422188761008545F3 /* WebViewController.swift */,
+				75255C1022186065008545F3 /* loginVC.swift */,
+				75AE94E32218CA3000243D3D /* Menu.swift */,
+				75CC4A60221853CF000267DE /* Redeem.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92A29C2DB6A7B586088EE939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F62756A640AB0195E59B48E /* Pods_Easy_Money_Maker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75CC4A3C22184CC4000267DE /* Easy Money Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CC4A4F22184CC6000267DE /* Build configuration list for PBXNativeTarget "Easy Money Maker" */;
+			buildPhases = (
+				A7A63A46CB62650A44168C93 /* [CP] Check Pods Manifest.lock */,
+				75CC4A3922184CC4000267DE /* Sources */,
+				75CC4A3A22184CC4000267DE /* Frameworks */,
+				75CC4A3B22184CC4000267DE /* Resources */,
+				B4AC711853C4B96E7137F933 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Money Maker";
+			productName = "Easy Money Maker";
+			productReference = 75CC4A3D22184CC4000267DE /* Easy Money Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75CC4A3522184CC4000267DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Turansoft;
+				TargetAttributes = {
+					75CC4A3C22184CC4000267DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 75CC4A3822184CC4000267DE /* Build configuration list for PBXProject "Easy Money Maker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75CC4A3422184CC4000267DE;
+			productRefGroup = 75CC4A3E22184CC4000267DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75CC4A3C22184CC4000267DE /* Easy Money Maker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75CC4A3B22184CC4000267DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7576528E221D921F00B1AB25 /* sparkle.png in Resources */,
+				75CC4A4B22184CC6000267DE /* LaunchScreen.storyboard in Resources */,
+				7576529D221D921F00B1AB25 /* Info.plist in Resources */,
+				75765292221D921F00B1AB25 /* error.aac in Resources */,
+				75765293221D921F00B1AB25 /* gomarice_okuba_cloud.ttf in Resources */,
+				75765299221D921F00B1AB25 /* Assets.xcassets in Resources */,
+				7576528A221D921F00B1AB25 /* GameScene.sks in Resources */,
+				7576529B221D921F00B1AB25 /* Main.storyboard in Resources */,
+				75CC4A6722185A1D000267DE /* GoogleService-Info.plist in Resources */,
+				7576528D221D921F00B1AB25 /* SparkleBlast.sks in Resources */,
+				7576528F221D921F00B1AB25 /* victory.aac in Resources */,
+				7576529A221D921F00B1AB25 /* LaunchScreen.storyboard in Resources */,
+				75765294221D921F00B1AB25 /* Context Rounded Black SSi Black.ttf in Resources */,
+				75CC4A4822184CC6000267DE /* Assets.xcassets in Resources */,
+				75CC4A4622184CC4000267DE /* Main.storyboard in Resources */,
+				75765291221D921F00B1AB25 /* bubble_pop.aac in Resources */,
+				75765290221D921F00B1AB25 /* woosh.aac in Resources */,
+				7576528C221D921F00B1AB25 /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7A63A46CB62650A44168C93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy Money Maker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AC711853C4B96E7137F933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easy Money Maker/Pods-Easy Money Maker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy Money Maker/Pods-Easy Money Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75CC4A3922184CC4000267DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7576529C221D921F00B1AB25 /* AppDelegate.swift in Sources */,
+				75CC4A5322184E6C000267DE /* webpanelcell.swift in Sources */,
+				75CC4A61221853CF000267DE /* Redeem.swift in Sources */,
+				75CC4A592218501A000267DE /* redeemTableViewCell.swift in Sources */,
+				75CC4A6322185690000267DE /* WebPanelController.swift in Sources */,
+				75255C13221861CF008545F3 /* Register.swift in Sources */,
+				75CC4A5B22185069000267DE /* aboutusTableViewCell.swift in Sources */,
+				7576528B221D921F00B1AB25 /* GameViewController.swift in Sources */,
+				75CC4A5F221853C2000267DE /* AboutUs.swift in Sources */,
+				75CC4A5522184F88000267DE /* admobTableViewCell.swift in Sources */,
+				75CC4A6522185781000267DE /* VideoCell.swift in Sources */,
+				75AE94E42218CA3000243D3D /* Menu.swift in Sources */,
+				75765295221D921F00B1AB25 /* SpinWheel.swift in Sources */,
+				75CC4A4322184CC4000267DE /* ViewController.swift in Sources */,
+				75CC4A5722184FDD000267DE /* startappTableViewCell.swift in Sources */,
+				75765297221D921F00B1AB25 /* Settings.swift in Sources */,
+				75255C1522188761008545F3 /* WebViewController.swift in Sources */,
+				7576529E221D921F00B1AB25 /* GameScene.swift in Sources */,
+				75765298221D921F00B1AB25 /* CGFloat+Extensions.swift in Sources */,
+				75765296221D921F00B1AB25 /* PushButton.swift in Sources */,
+				75AE94E62218D73500243D3D /* LeftMenuCell.swift in Sources */,
+				75255C1122186065008545F3 /* loginVC.swift in Sources */,
+				75CC4A4122184CC4000267DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75765283221D921F00B1AB25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75765284221D921F00B1AB25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75765285221D921F00B1AB25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75765286221D921F00B1AB25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75CC4A4422184CC4000267DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CC4A4522184CC4000267DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75CC4A4922184CC6000267DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CC4A4A22184CC6000267DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75CC4A4D22184CC6000267DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75CC4A4E22184CC6000267DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75CC4A5022184CC6000267DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB50F885966FCD4F5564F2AE /* Pods-Easy Money Maker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6RA3BDG7P;
+				INFOPLIST_FILE = "Easy Money Maker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birkansoft.Easy-Money-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75CC4A5122184CC6000267DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBC5E2849E420DFF425EB0E /* Pods-Easy Money Maker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6RA3BDG7P;
+				INFOPLIST_FILE = "Easy Money Maker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birkansoft.Easy-Money-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75CC4A3822184CC4000267DE /* Build configuration list for PBXProject "Easy Money Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CC4A4D22184CC6000267DE /* Debug */,
+				75CC4A4E22184CC6000267DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CC4A4F22184CC6000267DE /* Build configuration list for PBXNativeTarget "Easy Money Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CC4A5022184CC6000267DE /* Debug */,
+				75CC4A5122184CC6000267DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75CC4A3522184CC4000267DE /* Project object */;
+}
